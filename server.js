@@ -12,6 +12,7 @@ dotenv.config({
 })
 
 const IO = initialize(server)
+const global_socket = io();
 
 const hostname =  process.env.DEV_NODE || '127.127.127.127';
 const port = process.env.PORT || 8000;
@@ -20,3 +21,11 @@ app.use(express.static(path.join(__dirname, 'public')));
 server.listen(port, hostname, () => {
     console.log(`Server running at http://${hostname}:${port}/`);
 });
+
+setInterval(()=>{
+    global_socket.emit('pulse',heartBeat())
+},1000);
+
+const heartBeat = () => {
+    return Math.ceil(Math.random() * (160-60)+60);
+}
