@@ -1,0 +1,43 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "WebChat",
+  "main": "build/index.js",
+  "scripts": {
+    "dev": "watch 'npm run build' src",
+    "build": "babel src -d build",
+    "test": "jest",
+    "test:watch": "npm test -- --watch"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikLakhe/socket_webchat.git"
+  },
+  "keywords": [
+    "web",
+    "chat",
+    "webchat",
+    "socket.io"
+  ],
+  "author": "Rikesh Lal Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RikLakhe/socket_webchat/issues"
+  },
+  "homepage": "https://github.com/RikLakhe/socket_webchat#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "jest": "^24.9.0",
+    "socket.io": "^2.2.0",
+    "watch": "^1.0.2"
+  }
+}
