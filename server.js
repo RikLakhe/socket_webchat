@@ -26,6 +26,14 @@ setInterval(()=>{
     global_socket.emit('pulse',heartBeat())
 },1000);
 
+setInterval(()=>{
+    global_socket.emit('pulse2',heartBeat2())
+},500);
+
 const heartBeat = () => {
+    return Math.ceil(Math.random() * (160-60)+60);
+}
+
+const heartBeat2 = () => {
     return Math.ceil(Math.random() * (160-60)+60);
 }
