@@ -15,15 +15,23 @@
                 color: document.querySelector('input[name="color"]:checked').value
             })
         }
+
+        addEventListener("mousemove", function (event) {
+            var relX = event.pageX
+            var relY = event.pageY
+            var relBoxCoords = "(" + relX + "," + relY + ")";
+            console.log('gggg', relBoxCoords)
+
+        });
     </script>
 </head>
 <body>
 <div>
     <label>Message</label>
-    <input name="message" id="message" type="text"><br />
-    <input type="radio" name="color" value="success" checked>Success<br />
-    <input type="radio" name="color" value="info">Info<br />
-    <input type="radio" name="color" value="error">Error<br />
+    <input name="message" id="message" type="text"><br/>
+    <input type="radio" name="color" value="success" checked>Success<br/>
+    <input type="radio" name="color" value="info">Info<br/>
+    <input type="radio" name="color" value="error">Error<br/>
 
     <button onclick="send_message(); return false">Send Message</button>
 </div>
