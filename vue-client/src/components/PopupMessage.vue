@@ -10,7 +10,7 @@
         data: () => ({
             snackbar: false,
             notification_text: "",
-            timeout: 3000,
+            timeout: 100,
             color: "success"
         }),
         sockets: {

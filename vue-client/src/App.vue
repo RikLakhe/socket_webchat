@@ -6,7 +6,7 @@
             <Graph2 />
           </v-flex>
         </v-layout>
-          <PopupMessage></PopupMessage>
+          <PopupMessage />
       </v-container>
 </template>
 
