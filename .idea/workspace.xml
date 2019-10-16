@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17ca29f5-c4ff-45b9-b8ad-1a16f0d9047f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue-client/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vue-client/src/components/PopupMessage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/components/PopupMessage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue-client/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/vue-client/src/main.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +87,8 @@
       <workItem from="1571214667338" duration="968000" />
       <workItem from="1571216500665" duration="87000" />
       <workItem from="1571218075359" duration="124000" />
+      <workItem from="1571219320056" duration="802000" />
+      <workItem from="1571225873548" duration="719000" />
     </task>
     <servers />
   </component>

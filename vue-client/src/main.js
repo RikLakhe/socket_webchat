@@ -9,7 +9,7 @@ Vue.use(Vuetify)
 Vue.use(
     new VueSocketIO({
         debug: true,
-        connection: "http://localhost:9000" // Local Express Server
+        connection: "http://192.168.1.149:8000" // Local Express Server
     })
 );
 

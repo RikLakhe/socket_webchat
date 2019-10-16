@@ -15,8 +15,11 @@ dotenv.config({
 const IO = initialize(server)
 const global_socket = io();
 
-const hostname =  process.env.DEV_NODE || '127.127.127.127';
-const port = process.env.PORT || 8000;
+// const hostname =  process.env.DEV_NODE || '127.127.127.127';
+// const port = process.env.PORT || 8000;
+
+const hostname =  '192.168.1.149';
+const port = 8000;
 
 
 app.use(express.static(path.join(__dirname, 'public')));

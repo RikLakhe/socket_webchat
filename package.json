@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node server.js",
-    "dev": "concurrently \"npm run start\" \"npm run serve --prefix vue-client\""
+    "dev-vue": "concurrently \"npm run start\" \"npm run serve --prefix vue-client\"",
+    "dev-react": "concurrently \"npm run start\" \"npm start --prefix react-client\""
   },
   "repository": {
     "type": "git",
